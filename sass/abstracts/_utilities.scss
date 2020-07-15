@@ -1,0 +1,30 @@
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.quiero {
+  background-color: $color-green;
+  color: $color-white;
+  padding: 0.3rem 1rem;
+  font-size: $font-size-16px;
+}
+
+.margin-small-left {
+  margin-left: 1%;
+}
+
+.bgyellow {
+  background-color: $color-yellow;
+}
+
+.center {
+  text-align: center;
+}
+
+.margin-top-small {
+  margin-top: 1.5%;
+}

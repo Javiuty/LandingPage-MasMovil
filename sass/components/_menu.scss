@@ -1,0 +1,25 @@
+.menu {
+  width: 40%;
+  padding: 1.5rem;
+  margin-left: 16%;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item {
+    font-size: $font-size-15px;
+    list-style-type: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:first-child {
+      font-weight: bold;
+    }
+    &:not(:last-child) {
+      margin-right: 3%;
+    }
+  }
+}

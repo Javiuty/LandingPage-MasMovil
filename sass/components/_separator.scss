@@ -1,0 +1,15 @@
+.separator {
+  width: 100%;
+  height: 9vh;
+  background-color: $color-yellow;
+  margin-top: 1.4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__ganadores {
+    font-size: $font-size-21px;
+    margin-left: 2%;
+  }
+}

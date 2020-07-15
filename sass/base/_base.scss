@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "walsheim";
+  src: url("../../css/fonts/gt-walsheim-ultra-bold.ttf");
+  src: url("../../css/fonts/gt-walsheim-medium.ttf");
+  src: url("../../css/fonts/gt-walsheim-black.ttf");
+  src: url("../../css/fonts/gt-walsheim-regular.ttf");
+}
+
+body {
+  font-family: "walsheim";
+}

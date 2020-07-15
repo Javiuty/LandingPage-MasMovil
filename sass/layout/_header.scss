@@ -1,0 +1,118 @@
+.header {
+  height: 9vh;
+  background-color: $color-yellow;
+  display: flex;
+  justify-content: space-around;
+
+  &__container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon {
+    height: 70%;
+    width: 80%;
+  }
+
+  &__container-right {
+    width: 25rem;
+    height: 30rem;
+    z-index: 10;
+  }
+
+  &__phone-upper {
+    background-color: $color-green;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid $color-white;
+
+    &-data {
+      color: $color-white;
+      text-transform: uppercase;
+      font-size: $font-size-22px;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    &-data2 {
+      font-weight: bold;
+      font-size: $font-size-32px;
+    }
+
+    p {
+      color: $color-white;
+      margin-top: 0.3rem;
+      font-size: $font-size-10px;
+
+      span {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__phone-lower {
+    border-top: 5px solid $color-white;
+    background-color: $color-black;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-data {
+      color: $color-white;
+      text-transform: uppercase;
+      font-size: $font-size-18px;
+    }
+
+    &-input {
+      width: 75%;
+      height: 4rem;
+      border: none;
+      border-radius: 2px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      padding: 1rem;
+
+      &::placeholder {
+        text-align: center;
+        padding-left: 2rem;
+      }
+    }
+
+    &-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &-label {
+      color: $color-white;
+      margin-left: 0.5rem;
+      font-size: $font-size-10px;
+
+      span {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+
+    &-llamame {
+      color: $color-white;
+      font-size: $font-size-22px;
+      text-transform: uppercase;
+      background-color: $color-green;
+      padding: 1rem;
+      border-radius: 2px;
+      margin-top: 3%;
+      cursor: pointer;
+    }
+  }
+}
